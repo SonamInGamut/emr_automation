@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTestSuite">
+    <listeners>
+        <listener class-name="com.example.emr.CustomTestListener" />
+    </listeners>
+
+    <!-- Include your test classes here -->
+    <test name="Login">
+        <classes>
+            <class name="com.example.emr.EMRInit" />
+        </classes>
+    </test>
+</suite>

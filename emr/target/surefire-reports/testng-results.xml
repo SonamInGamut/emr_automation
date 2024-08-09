@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Additional details for the passed tests:]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 1. Positive test case - User Login with Valid Credentials.]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 2. Negative test case - Login with Invalid Credentials.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-24T19:05:28 IST" name="LoginTestSuite" finished-at="2024-05-24T19:05:45 IST" duration-ms="17039">
+    <groups>
+    </groups>
+    <test started-at="2024-05-24T19:05:28 IST" name="Login" finished-at="2024-05-24T19:05:45 IST" duration-ms="17039">
+      <class name="com.example.emr.EMRInit">
+        <test-method signature="TestLoginFunc()[pri:0, instance:com.example.emr.EMRInit@3349e9bb]" started-at="2024-05-24T19:05:28 IST" name="TestLoginFunc" finished-at="2024-05-24T19:05:45 IST" duration-ms="16989" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Additional details for the passed tests:]]>
+            </line>
+            <line>
+              <![CDATA[TestCase 1. Positive test case - User Login with Valid Credentials.]]>
+            </line>
+            <line>
+              <![CDATA[TestCase 2. Negative test case - Login with Invalid Credentials.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestLoginFunc -->
+        <test-method is-config="true" signature="SendEmail()[pri:0, instance:com.example.emr.EMRInit@3349e9bb]" started-at="2024-05-24T19:05:45 IST" name="SendEmail" finished-at="2024-05-24T19:05:46 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendEmail -->
+      </class> <!-- com.example.emr.EMRInit -->
+    </test> <!-- Login -->
+  </suite> <!-- LoginTestSuite -->
+</testng-results>
